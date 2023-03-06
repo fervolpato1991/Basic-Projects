@@ -1,0 +1,75 @@
+h1, p {
+    text-align: center;
+    color: white;
+    font-family: cursive, impact;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 20px
+  }
+  .survey {
+    width: 80vw;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgba(0, 0, 0, 80%);
+    color: white;
+    padding: 10px;
+    font-size: 19px;
+    font-family: italic;
+  }
+  label{
+    display: block;
+    margin: 0.5rem 0;
+    margin-top: 1.0rem;
+  }
+  .data{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  input.data{
+    width: 80%;
+    display: block;
+  }
+  body {
+  font-family: sans-serif;
+  background-image: url(https://m.media-amazon.com/images/I/61WZ9WIg3QL._SL1062_.jpg);
+    background-size: 100% 100%;
+  }
+  input, textarea, select{
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  input, textarea{
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: white;
+    height: 5vw;
+  }
+  .inline{
+    width: unset;
+    height: unset;
+    margin-right: 1.0rem;
+  }
+  .opinnion{
+    margin-top: 8%;
+  }
+  select{
+    background-color: #0a0a23;
+    border-color: #0a0a23;
+    color: white;
+    height: 5%;
+  }
+  input[type=submit]{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 5%;
+    background-color: #2b2b4f;
+    border-color: #2b2b4f;
+    min-width: 300px;
+  }

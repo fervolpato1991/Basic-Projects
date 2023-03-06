@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="styles.css">
+<title>freeCodeCamp Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" class="survey" action="https://survey.freecodecamp.test" method="get">
+      <div class="data">
+        <label for="name" id="name-label">Name </label><input id="name" type="text" name="name" placeholder="Enter your name" required>
+        <label for="email" id="email-label">Email </label><input id="email" type="email" placeholder="Enter your Email" required>
+        <label for="number" id="number-label">Age(optional) </label><input id="number" type="number" placeholder="Age" min="13" max="90"></div>
+      <div class="opinnion">
+        <label for="role">Which option best describe your current role? <select id="dropdown">
+          <option value="">Select current role</option>
+          <option value="1">Student</option>
+          <option value="2">Full-Time Job</option>
+          <option value="3">Full-Time Learner</option>
+          </select></label>
+      </div>
+      <div class="opinnion">Would you recommend freeCodeCamp?
+        <label for="yes"><input id="yes" name="recommendation" type="radio" class="inline" value="yes">Yes </label>
+        <label for="no"><input id="no" name="recommendation" type="radio" class="inline" value="no">No </label>
+        <label for="not-sure"><input id="not-sure" name="recommendation" type="radio" class="inline" value="no-sure">Not sure</label>
+      </div>
+      <div class="data">What would you like to improve? 
+        <label for="front-end-projects"><input id="front-end-projects" type="checkbox" name="front" class="inline" value="Front-end-projects"> Front-end projects</label>
+        <label for="back-end-projects"><input id="back-end-projects" type="checkbox" name="back" class="inline" value="Back-end project"> Back-end projects</label>
+        <label for="data-visualization"><input id="data-visualization" type="checkbox" name="visualization" class="inline" value="Data-visualization"> Data visualization</label>
+        <label for="challenges"><input id="challenges" type="checkbox" name="challenges" class="inline" value="Challenges"> Challenges</label>
+        <label for="additional-courses"><input id="additional-courses" type="checkbox" name="courses" class="inline" value="Additional-courses"> Additional courses</label>
+      </div>
+      <div class="data">
+        <label for="suggestions">Add Suggestions: <textarea id="suggestions" name="suggestions" rows="3" cols="30" placeholder="Enter your comments here..."></textarea></div></label>
+        <div class="submit"><input type="submit" value="Submit" class="button" id="submit"></div>
+    </form>
+  </body>
+</html>
